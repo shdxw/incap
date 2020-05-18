@@ -53,7 +53,7 @@ public:
 		cout << "auahahahuaahahahahyauauyu ya ustal" << endl;
 	}
 
-	void shutka_ot_batya(Human* h) {
+	void shutka_ot_batya(Human* h) override {
 		h->say_shutka();
 	}
 
